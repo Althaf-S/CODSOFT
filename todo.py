@@ -5,6 +5,7 @@ root = Tk()
 root.title("To-do list")
 root.iconbitmap("lists.ico")
 root.geometry("283x310")
+root.resizable(False,False)
 E = Entry(root,width = 40)
 E.grid(row=0,column=0,columnspan=3,padx=10,pady=5)
 
