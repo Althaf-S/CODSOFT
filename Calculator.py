@@ -1,6 +1,8 @@
 from tkinter import *
 root = Tk()
 root.title("Calculator")
+root.iconbitmap("calculator.ico")
+root.resizable(False,False)
 E = Entry(root, borderwidth=5,width=35)
 E.grid(row=0,column=0,columnspan=4,padx=10,pady=10)
 def click(num):
