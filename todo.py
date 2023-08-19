@@ -1,3 +1,9 @@
+#To add a todo, type it in the entry widget and click 'Add' button
+#To edit a todo, click on the todo to be edited and click "Edit" button, now the value to be edited will appear on entry widget,
+# after editing press "Add" button and now your edited value will be present at the top of list
+#To delete a value, click on the value to be deleted and press "Delete" button
+#To delete all the values on list, press "Delete All" button
+#To know the working of todo program, refer to the demo video provided in the main branch "todo demo.mp4"
 from tkinter import *
 from tkinter import messagebox
 
