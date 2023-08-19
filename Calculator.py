@@ -1,3 +1,5 @@
+#To know the working of calculator refer the demo video provided in the main branch "Calculator demo.mp4"
+
 from tkinter import *
 root = Tk()
 root.title("Calculator")
