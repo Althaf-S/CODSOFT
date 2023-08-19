@@ -1,3 +1,5 @@
+#To know the working of password generator refer to the demo video provided in main branch "password generator demo.mp4"
+
 from tkinter import *
 from tkinter import messagebox
 from random import randint
