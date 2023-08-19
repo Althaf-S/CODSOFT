@@ -1,5 +1,6 @@
 #Add your own appid in APPID part while requesting for api which is the first line of try block
 #To get appid visit website http://api.openweathermap.org
+#To know the working of weather appication refer to the demo video provided in main branch "Weather demo.mp4"
 from tkinter import *
 import requests
 import json
@@ -22,7 +23,7 @@ def details():
      messagebox.showerror('Weather','Empty value')
   else:
     try:
-       api_request = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={place}&APPID=paste your appid here')
+       api_request = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={place}&APPID='paste your appid here')
        api =  json.loads(api_request.content)
        city = api['name']
        tempr = api['main']['temp']
